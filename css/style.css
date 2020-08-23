@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    
+    list-style: none;
+}
+a{
+    text-decoration: none;
+} 
+html,body{
+    scroll-behavior: smooth;
+}
+nav a img{
+
+    margin-left: -150px;
+}
+nav{
+    background: #02918c;
+}
+nav ul li{
+      padding: 30px 25px;
+}
+
+nav ul li a {
+   
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+
+    
+}
+nav ul li a:hover{
+    color: #fff;
+}
+#banner-part{
+    
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+
+}
+#banner-part .banner-text {
+    padding: 350px 0;
+    text-align: center;
+    color: #fff;
+}
+#banner-part .banner-text h5{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#banner-part .banner-text h1{
+/*    font-size: 68px;*/
+    text-transform: uppercase;
+/*    letter-spacing:20px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+#banner-part .banner-text p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#banner-part .second_logo img{
+    padding: 30px 0;
+}
+#banner-part .button a{
+    text-decoration: none;
+    background: #fff500;
+    padding: 10px 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+#about_part .about_header h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+    
+}
+
+#about_part .logo{
+    text-align: center;
+
+}
+
+#about_part .about_text{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#about_part .about_text spam {
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+#about_part .about_icon_img{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    
+
+}
+
+#about_part .about_text2{
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+#about_part .about_text2 h5{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:  #7e8287;
+}
+#about_part .about_text2 p{
+  font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: 7e8287;
+    padding-bottom: 50px;
+}
+
+#about_part .about_down_part{
+    border-right: 1px solid #000;
+}
+#service{
+    background: url(../images/service.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    margin: 50px 0;
+}
+
+#service .service_header h1{
+    font-size: 46px;
+    color: #02918c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+
+}
+
+#service .header_text p{
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 40px;
+    padding-top: 10px;
+}
+#service .logo2 img{
+    padding: 10px 0;
+}
+#work_part .work_header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+     font-weight: 800;
+    color: #02918c;
+}
+#work_part .work_header_img{
+    text-align: center;
+}
+#work_part .work_header_img p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 50px;
+    color: #7e8287;
+}
+#work_part .work_image img {
+    position: relative;
+/*    transform: 5m;*/
+}
+#work_part .overlay{
+    text-align: center;
+    
+    width: 200px;
+    height: 200px;
+    background-color: #02918c;
+    top: 15px;
+    left: 50px;
+    position: absolute;
+    opacity: 0;
+    transition: all .5s linear;
+    color: #fff;
+    
+}
+#work_part .overlay h5{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    padding-top: 50px;
+}
+#work_part .overlay p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#work_part .work_image:hover .overlay{
+/*
+    width: 100%;
+     top: 15px;
+    left: 50px;
+*/
+    opacity: 1;
+}
+#contact_part{
+    padding: 30px 0;
+}
+
+#contact_part .contact_header h1{
+    text-align: center; 
+    font-size: 46px;
+    color: #02918c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+#contact_part .contact_header_img{
+    text-align: center;
+}
+#contact_part .contact_header_img p{
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+/*
+#contact_part .contact_below_part{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #0b0b0b;
+    color: #fff;
+}
+#contact_part form{
+
+    margin-left: 500px;
+}
+#contact_part form button{
+    text-align: center;
+    background-color: #fff500;
+    color: #000;
+    margin-right: 600px;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+#contact_part form input{
+    text-align: center;
+    background: #000;
+    color: #fff;
+   
+    
+}
+#contact_part form textarea{
+    background: #000;
+    color: #fff;
+    border: none;
+}
+
+#contact_part .contact_below_part .form-control{
+    text-align: center;
+    width: 50%;
+    border: 0;
+}
+*/
+#footer{
+    background-color: #000;
+}
+#footer h1{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #7e8287;
+    height: 70px;
+/*    line-height: 50%*/
+    padding-top: 25px;
+        
+    
+}
